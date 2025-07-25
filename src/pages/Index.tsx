@@ -152,7 +152,7 @@ const Index = () => {
               <a href="#contacts" className="text-gray-700 hover:text-blue-600">Контакты</a>
             </div>
             <div className="text-right">
-              <div className="text-lg font-bold text-blue-600">+7 (861) 123-45-67</div>
+              <div className="text-lg font-bold text-blue-600">+7 (989) 260-61-58</div>
               <div className="text-sm text-gray-600">Ежедневно 8:00-20:00</div>
             </div>
           </div>
@@ -552,25 +552,14 @@ const Index = () => {
                     <Icon name="Phone" className="text-blue-600" size={24} />
                     <div>
                       <div className="font-semibold">Телефон</div>
-                      <div className="text-gray-600">+7 (861) 123-45-67</div>
+                      <div className="text-gray-600">+7 (989) 260-61-58</div>
                       <div className="text-sm text-gray-500">Ежедневно 8:00-20:00</div>
                     </div>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card>
-                <CardContent className="pt-6">
-                  <div className="flex items-center space-x-4">
-                    <Icon name="Mail" className="text-blue-600" size={24} />
-                    <div>
-                      <div className="font-semibold">Email</div>
-                      <div className="text-gray-600">info@klimat-service.ru</div>
-                      <div className="text-sm text-gray-500">Ответим в течение часа</div>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+
 
               <Card>
                 <CardContent className="pt-6">
@@ -661,8 +650,7 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Контакты</h4>
               <div className="space-y-2 text-sm text-gray-400">
-                <div>+7 (861) 123-45-67</div>
-                <div>info@klimat-service.ru</div>
+                <div>+7 (989) 260-61-58</div>
                 <div>г. Краснодар, ул. Красная, 123</div>
               </div>
             </div>

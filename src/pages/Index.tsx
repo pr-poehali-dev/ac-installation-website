@@ -359,7 +359,19 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-8">
-            <Button variant="outline" size="lg">
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => {
+                const catalogSection = document.getElementById('catalog');
+                if (catalogSection) {
+                  window.scrollTo({
+                    top: catalogSection.offsetTop - 100,
+                    behavior: 'smooth'
+                  });
+                }
+              }}
+            >
               Посмотреть весь каталог
               <Icon name="ArrowRight" className="ml-2" size={16} />
             </Button>

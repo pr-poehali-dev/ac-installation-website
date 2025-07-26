@@ -67,7 +67,8 @@ const Index = () => {
       area: "до 25 м²",
       price: "45 000",
       features: ["Инверторный", "WiFi управление", "Самоочистка"],
-      efficiency: "A+++"
+      efficiency: "A+++",
+      image: "/img/21073410-a200-443b-b89b-72df0e015730.jpg"
     },
     {
       id: 2,
@@ -76,7 +77,8 @@ const Index = () => {
       area: "до 25 м²",
       price: "38 000",
       features: ["Инверторный", "Тихая работа", "Фильтр PM2.5"],
-      efficiency: "A++"
+      efficiency: "A++",
+      image: "/img/21073410-a200-443b-b89b-72df0e015730.jpg"
     },
     {
       id: 3,
@@ -85,7 +87,38 @@ const Index = () => {
       area: "до 35 м²", 
       price: "32 000",
       features: ["Быстрое охлаждение", "Золотое покрытие", "Dual Cool"],
-      efficiency: "A+"
+      efficiency: "A+",
+      image: "/img/21073410-a200-443b-b89b-72df0e015730.jpg"
+    },
+    {
+      id: 4,
+      name: "Haier Tibio HSU-09HTT03/R2",
+      power: "2.6 кВт",
+      area: "до 25 м²",
+      price: "18 500",
+      features: ["Базовая модель", "Простое управление", "Надёжность"],
+      efficiency: "A",
+      image: "/img/28ddeb08-3ff8-4d76-a17f-9688351fcabd.jpg"
+    },
+    {
+      id: 5,
+      name: "Ballu BSWI-09HN1/EP",
+      power: "2.6 кВт",
+      area: "до 26 м²",
+      price: "16 900",
+      features: ["Инверторный", "Бюджетная модель", "Энергосбережение"],
+      efficiency: "A",
+      image: "/img/560e5148-b65a-4130-8290-241bb4df8b1a.jpg"
+    },
+    {
+      id: 6,
+      name: "Centek CT-65A09",
+      power: "2.6 кВт",
+      area: "до 25 м²",
+      price: "14 500",
+      features: ["Оконная модель", "Быстрый монтаж", "Экономия места"],
+      efficiency: "B+",
+      image: "/img/c556a09e-e850-445a-9020-1a0497f3625b.jpg"
     }
   ];
 
@@ -319,7 +352,7 @@ const Index = () => {
                 <CardHeader>
                   <div className="aspect-video bg-gray-100 rounded-lg mb-4 flex items-center justify-center">
                     <img 
-                      src="/img/21073410-a200-443b-b89b-72df0e015730.jpg" 
+                      src={ac.image} 
                       alt={ac.name}
                       className="w-full h-full object-cover rounded-lg"
                     />

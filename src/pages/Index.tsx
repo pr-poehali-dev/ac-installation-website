@@ -213,10 +213,6 @@ const Index = () => {
                 Более 10 лет опыта. Гарантия качества. Быстрый монтаж за 1 день.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                  <Icon name="Calculator" className="mr-2" size={20} />
-                  Рассчитать стоимость
-                </Button>
                 <Button variant="outline" size="lg">
                   <Icon name="Phone" className="mr-2" size={20} />
                   Заказать звонок

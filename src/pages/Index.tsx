@@ -184,9 +184,18 @@ const Index = () => {
               <a href="#about" className="text-gray-700 hover:text-blue-600">О компании</a>
               <a href="#contacts" className="text-gray-700 hover:text-blue-600">Контакты</a>
             </div>
-            <div className="text-right">
-              <div className="text-lg font-bold text-blue-600">+7 (989) 260-61-58</div>
-              <div className="text-sm text-gray-600">Ежедневно 8:00-20:00</div>
+            <div className="flex items-center gap-4">
+              <Button 
+                onClick={() => window.open('https://wa.me/79892606158?text=Здравствуйте! Интересует установка кондиционера', '_blank')}
+                className="bg-green-600 hover:bg-green-700"
+              >
+                <Icon name="MessageCircle" className="mr-2" size={16} />
+                WhatsApp
+              </Button>
+              <div className="text-right">
+                <div className="text-lg font-bold text-blue-600">+7 (989) 260-61-58</div>
+                <div className="text-sm text-gray-600">Ежедневно 8:00-20:00</div>
+              </div>
             </div>
           </div>
         </div>
@@ -694,9 +703,17 @@ const Index = () => {
             </div>
             <div>
               <h4 className="font-semibold mb-4">Контакты</h4>
-              <div className="space-y-2 text-sm text-gray-400">
+              <div className="space-y-3 text-sm text-gray-400">
                 <div>+7 (989) 260-61-58</div>
                 <div>г. Краснодар, ул. Красная, 123</div>
+                <Button 
+                  onClick={() => window.open('https://wa.me/79892606158?text=Здравствуйте! Интересует установка кондиционера', '_blank')}
+                  className="bg-green-600 hover:bg-green-700 w-full mt-3"
+                  size="sm"
+                >
+                  <Icon name="MessageCircle" className="mr-2" size={16} />
+                  Написать в WhatsApp
+                </Button>
               </div>
             </div>
           </div>
